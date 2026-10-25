@@ -1,0 +1,11 @@
+torch==2.5.1
+zuko==1.4.1
+einops==0.8.2
+numpy==2.2.6
+scikit-learn==1.5.2
+matplotlib==3.10.9
+tqdm==4.69.0
+wandb==0.28.1
+# only needed once, to parse the raw DROID RLDS dataset into data/droid/parsed_data.pt
+tensorflow
+tensorflow-datasets
